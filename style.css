@@ -1,0 +1,326 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&family=Poppins&family=Roboto&display=swap');*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Inter' 'sans serif';
+}
+body{
+    background-color: black;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    padding:2px;
+    border-radius:30px ;
+
+}
+button{
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color:#1A1C19;
+    color: white;
+    border: 1px solid white;
+    margin: 2px;
+}
+
+.fbtn{
+    width: 400px;
+    background-color: #343124;
+
+    
+}
+.sec1{
+    background-color: #DFD6C5;
+    margin: 2.5%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+.note{
+    margin-top: 4%;
+}
+
+.note p{
+    font-size: 19px;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0% 2%;
+    display: inline;
+    margin-top: 2%;
+    margin: 5%;
+}
+.sec1 h1{
+    color: rgb(42, 13, 13);
+    margin: 5%;
+    font-weight: 600;
+}
+.sec1 div img{
+    width: 95%;
+    height: 300px;
+    margin: 2%;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+.sec1 .sec1footer{
+    font-weight: 200;
+    padding:  1.5% 4%;
+    padding-bottom: 5%;
+}
+.sec2{
+    background-color: #8E886D;
+    margin: 2.5%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+.note2{
+    margin-top: 4%;
+}
+.note2 p{
+    font-size: 19px;
+    color: #333333;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0% 2%;
+    display: inline;
+    margin-top: 2%;
+    margin: 5%;
+}
+.sec2 .sec2flex div h1{
+    color: rgb(42, 13, 13);
+    margin: 5%;
+    font-weight: 600;
+}
+.sec2 .sec2flex div p{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5%;
+}
+.imagediv{
+    height: 20%;
+}
+.sec2 .sec2flex div img{
+    width: 95%;
+    margin: 2%;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    height: 300px;
+}
+.sec2 .sec2footer{
+    font-weight: 200;
+    padding:  1.5% 4%;
+    padding-bottom: 5%;
+}
+.subsection1{
+    background-color: #916E58;
+    margin: 2.5%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+.subsection1 div img{
+    width: 95%;
+    margin: 2%;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    height: 300px;
+}
+.subsection1 h1{
+    color: rgb(42, 13, 13);
+    margin: 5%;
+    font-size: 50px;
+    font-weight: 500;
+}
+.subsection1 p{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5%;
+}
+.subsection1 .subsection1footer{
+    font-weight: 200;
+    padding:  1.5% 4%;
+    padding-bottom: 5%;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+}
+.note3{
+    margin: 4%;
+
+}
+
+.note3 p{
+    font-size: 19px;
+    color: #333333;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0% 2%;
+    display: inline;
+
+}
+.imagediv2{
+    width: 15%;
+    margin: 4%;
+}
+.part1 div img{
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+.subsection2{
+    background-color: #B1A48E;
+    margin: 2.5%;
+    border: 1px solid transparent;
+    border-radius: 30px;
+}
+.subsection2 h1{
+    color: rgb(42, 13, 13);
+    margin: 5%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.subsection2 p{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 5%;
+}
+.part2{
+    display: flex;
+    margin: 5.5%;
+    justify-content: space-between;
+}
+.subsection2footer{
+    font-weight: 200;
+    padding:  1.5% 4%;
+    padding-bottom: 5%;
+}
+.sec1:hover img,.subsection1:hover img,.subsection2:hover img,.sec2:hover img{
+    transform: scale(1.1);
+    width: 100%;
+    transition: all 1s;
+}
+.sec2flex .imagediv,.subsection1 div,.sec1 .sec1imgdiv{
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+
+@media screen and (min-width: 840px){
+
+    .maincontainer{
+        display: flex;
+    }
+    .sec1{
+        width: 30%;
+        margin: 1%;
+        height: 1100px;
+    }
+    .main{
+        width: 100%;
+    }
+    .sec1 .sec1imgdiv{
+        height: 850px;
+        width: 95%;
+        border: 1px solid transparent;
+        border-radius: 30px;
+    }
+    .sec1 .sec1imgdiv img{
+        height: 95%;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .subsection1{
+        height: 650px;
+    }
+    .subsection2{
+        height: 650px;
+    }
+
+    .subsection1 h1{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .subsection1 p{
+        font-size: 20px;
+        margin-bottom: 9%;
+    }
+    .sec2{
+        height: 450px;
+        margin: 0.5%;
+    } 
+    .subsection2 .part2 {
+        margin-top: 15%;
+        margin-bottom: 27%;
+    }
+    .subsection2 p{
+        font-size: 20px;
+    }
+    .sec2flex p{
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 541px){
+    .tab{
+        display: flex;
+        justify-content: center;
+    }
+    .subsection1,.subsection2{
+        margin: 0.5%;
+    }
+    .part2{
+        margin-top: 32%;
+        margin-bottom: 32%;
+    }
+    .sec2flex{
+        display: flex;
+    }
+    .imagediv{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 1125px){
+ 
+    nav .coll{
+       display: none;
+    }
+  
+}
+@media (max-width: 950px){
+    .eve{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    .right{
+        display: none;
+    }
+}
+
+
+@media (max-width: 500px){
+    .fbtn{
+        height: auto;
+        width: auto;
+        
+    }
+}
+@media (max-width:600px){
+    .fbtn{
+        height: auto;
+        width: auto;
+        
+    }
+}
+
+
+
